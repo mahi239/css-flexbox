@@ -1,6 +1,56 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing:border-box;
+/* Resets */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* typography */
+html {
+  font-size: 62.5%;
+}
+/* main */
+main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
+. left,
+. right {
+  width: 50%;
+  position: relative;
+}
+.left h2,
+.right h2 {
+    font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.left, .right{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.left {
+  background-image: url("./assets/winter.jpg");
+}
+
+.right {
+  background-image: url("./assets/summer.jpg");
+}
+/*overlay styling */
+.overlay {
+    height: 100%;
+}
+.left .overlay {
+    background-color: rgba(0, 0, 0, 0.349)06, 71, 71);
+}
+.right .overlay{
+    background-color: rgba(0, 255, 255, 0.877);
+}
+.right h2 {
+    color: black;
+}
