@@ -22,7 +22,7 @@ main {
 }
 .left h2,
 .right h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 5rem;
   position: absolute;
   top: 50%;
