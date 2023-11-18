@@ -15,8 +15,8 @@ main {
   width: 100vw;
 }
 
-. left,
-. right {
+.left,
+.right {
   width: 50%;
   position: relative;
 }
@@ -39,18 +39,19 @@ main {
 }
 
 .right {
-  background-image: url("./assets/summer.jpg");
+  background-image: url("./assets/summer.avif");
 }
 /*overlay styling */
 .overlay {
     height: 100%;
 }
 .left .overlay {
-    background-color: rgba(0, 0, 0, 0.349)06, 71, 71);
+    background-color: rgba(0, 0, 0, 0.171)06, 71, 71);
 }
+
 .right .overlay{
-    background-color: rgba(0, 255, 255, 0.877);
-}
+    background-color: rgba(153, 89, 153, 0.425);
+} 
 .right h2 {
     color: black;
 }
