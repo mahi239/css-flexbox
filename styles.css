@@ -23,6 +23,7 @@ main {
 .left h2,
 .right h2 {
     font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px #72726b77;
     font-size: 5rem;
   position: absolute;
   top: 50%;
